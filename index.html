@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Support</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <p class="phone-number">Tālrunis: +371 29 999 999</p>
+            <div class="circle-container">
+                <div class="circle blue"></div>
+                <div class="circle pink"></div>
+                <div class="circle black"></div>
+                <div class="circle yellow"></div>
+            </div>
+        </div>
+
+        <div class="color-picker">
+            <span class="color-option" onclick="changeColor('#003366')"></span>
+            <span class="color-option" onclick="changeColor('#d6007d')"></span>
+            <span class="color-option" onclick="changeColor('#333')"></span>
+            <span class="color-option" onclick="changeColor('#ffd700')"></span>
+        </div>
+        
+        <div class="logo-section">
+            <img src="images/logo.png" alt="Jūsu bizness">
+            <h1>IT atbalsts Jūsu biznesam</h1>
+        </div>
+    </header>
+
+    <section class="intro">
+        <img src="images/slideshow1.jpg" alt="slideshow" class="hero-image">
+        <h2>Mūsu specializācija ir moderni IT risinājumi</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid explicabo sit dolor aperiam deleniti odio aut quis laudantium quos asperiores molestiae quia cupiditate repudiandae ullam dignissimos, accusantium deserunt accusamus sequi magnam sapiente distinctio a! Consequuntur, libero voluptate sit dignissimos obcaecati dolores ducimus adipisci doloribus, suscipit perferendis omnis quaerat magnam. Repellat.</p>
+    </section>
+
+    <div class="slideshow-container">
+        <div class="mySlides-fade">
+            <img src="images/slideshow1.jpg" alt="Slide 1">
+        </div>
+        <div class="mySlides-fade">
+            <img src="images/s1.jpg" alt="Slide 2">
+        </div>
+        <div class="mySlides-fade">
+            <img src="images/s2.jpeg" alt="Slide 3">
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+    
+    <section class="services">
+        <h2>Mūsu <span class="highlight">pakalpojumi</span></h2>
+        <div class="service-items">
+            <div class="service-items">
+                <div class="service-box">
+                    <img src="images/i1.png" alt="Programmaturas izstrade">
+                    <div class="service-content">
+                        <h3>Programmatūras izstrāde</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus doloribus ullam necessitatibus eveniet blanditiis possimus neque, voluptas, pariatur dolore, totam animi voluptate quasi tenetur? Eum illo officia eligendi cupiditate! Rerum!</p>
+                    </div>
+                </div>
+                <div class="service-box">
+                    <img src="images/i2.png" alt="Palidziba IT jautajumos">
+                    <div class="service-content">
+                        <h3>Palīdzība IT jautājumos</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus doloribus ullam necessitatibus eveniet blanditiis possimus neque, voluptas, pariatur dolore, totam animi voluptate quasi tenetur? Eum illo officia eligendi cupiditate! Rerum!</p>
+                    </div>
+                </div>
+                <div class="service-box">
+                    <img src="images/i3.png" alt="Datoru noma">
+                    <div class="service-content">
+                        <h3>Datoru noma</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus doloribus ullam necessitatibus eveniet blanditiis possimus neque, voluptas, pariatur dolore, totam animi voluptate quasi tenetur? Eum illo officia eligendi cupiditate! Rerum!</p>
+                    </div>
+                </div>
+                <div class="service-box">
+                    <img src="images/i4.png" alt="Datu serviss">
+                    <div class="service-content">
+                        <h3>Datu serviss</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus doloribus ullam necessitatibus eveniet blanditiis possimus neque, voluptas, pariatur dolore, totam animi voluptate quasi tenetur? Eum illo officia eligendi cupiditate! Rerum!</p>
+                    </div>
+                </div>
+                <div class="service-box">
+                    <img src="images/i5.png" alt="Datoru apkalposana">
+                    <div class="service-content">
+                        <h3>Īpaši izdevīga datoru apkalpošana</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus doloribus ullam necessitatibus eveniet blanditiis possimus neque, voluptas, pariatur dolore, totam animi voluptate quasi tenetur? Eum illo officia eligendi cupiditate! Rerum!</p>
+                    </div>
+                </div>
+                <div class="service-box">
+                    <img src="images/i6.png" alt="Audits">
+                    <div class="service-content">
+                        <h3>ID sistēmu audits</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus doloribus ullam necessitatibus eveniet blanditiis possimus neque, voluptas, pariatur dolore, totam animi voluptate quasi tenetur? Eum illo officia eligendi cupiditate! Rerum!</p>
+                    </div>
+                </div>
+            </div>            
+    </section>    
+    
+    <section class="testimonials">
+        <h2>Mūsu klientu <span class="highlight">atsauksmes</span></h2>
+        <div class="testimonial-items">
+            <div class="testimonial">
+                <img src="images/1.png" alt="Anna Egle">
+                <h3>Anna Egle</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium eum laborum ut eligendi quas, ad necessitatibus dolore deleniti, unde repellat assumenda, sunt eos aliquid reiciendi.</p>
+                <button>Read More</button>
+            </div>
+            <div class="testimonial">
+                <img src="images/2.png" alt="Jānis Pūpols">
+                <h3>Jānis Pūpols</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium eum laborum ut eligendi quas, ad necessitatibus dolore deleniti, unde repellat assumenda, sunt eos aliquid reiciendi.</p>
+                <button>Read More</button>
+            </div>
+            <div class="testimonial">
+                <img src="images/3.png" alt="Ieva Ozola">
+                <h3>Ieva Ozola</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium eum laborum ut eligendi quas, ad necessitatibus dolore deleniti, unde repellat assumenda, sunt eos aliquid reiciendi.</p>
+                <button>Read More</button>
+            </div>
+        </div>
+    </section>
+    
+    <section class="offer-section">
+        <h2>Saņem īpašu atlaidi IT atbalstam</h2>
+        <h4>Lai saņemtu izdevīgu piedāvājumu, atstāj mums savu e-pasta adresi:</h4>
+        <input type="text" placeholder="Vārds">
+        <input type="email" placeholder="E-pasts">
+        <button>Gatavs</button>
+    </section>    
+
+    <footer>
+        <p>Liepājas Valsts tehnikums &copy; 2024</p>
+    </footer>
+</body>
+</html>
