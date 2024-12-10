@@ -1,2 +1,2 @@
-# Timek-a-vietne
+# Timekļa vietne
 Tīmekļa vietnes izstrāde. IT atbalsts Jūsu biznesam.
